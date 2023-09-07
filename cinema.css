@@ -1,0 +1,1462 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background: red;
+    border-radius: 10px
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #b30000;
+}
+header {
+    background-color: rgb(1, 11, 11);
+    color: antiquewhite;
+}
+
+.btn button {
+    padding: 6px 18px;
+    border: 2px solid gold;
+    border-radius: 25px;
+    color: gold;
+    background-color: black;
+}
+
+.btn {
+    position: relative;
+    left: -1%;
+
+
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    width: 100%;
+    height: 12vh;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.navbar {
+    position: relative;
+    right: 10%;
+
+}
+
+.navbar ul {
+    display: flex;
+
+
+}
+
+.navbar ul li {
+    list-style: none;
+    padding-left: 50px;
+    position: relative;
+    left: 9%;
+
+}
+
+.logo img {
+    width: 170px;
+}
+
+.logo2 img {
+    width: 35%;
+    position: relative;
+    left: 50%;
+}
+
+input {
+    height: 42px;
+    width: 200px;
+    /* font-weight: bold; */
+    font-size: 20px;
+    border: 1px solid rgb(199 188 188);
+    color: rgb(199 188 188);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0px 8px;
+    border-radius: 25px;
+     position: relative;
+    left: 10%; 
+}
+
+.fa-solid.fa-magnifying-glass {
+    font-weight: 900;
+    display: none;
+}
+ .fa-solid.fa-microphone{
+    position: relative;
+    left: 50px;
+    font-size: 20px;
+} 
+.black{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    display: none;
+}
+
+.black .bgs i {
+    margin: auto;
+    text-align: center;
+}
+
+.page1{
+    background-image: url(/images/aakashvani_aug29_ctv-1693263231149.webp);
+    width: 100%;
+     height: 100vh; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    display: flex;
+    cursor: pointer;
+    background-position-x: 1px;
+
+}
+
+    
+
+.gradient{
+    background: linear-gradient(to right,#000 30%, transparent, transparent);
+
+    width: 100%;
+}
+ div h1{
+   color: aliceblue;
+   padding-top: 300px;
+   margin: 30px;
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: bold;
+}
+
+.btn1{
+  margin: 50px;  
+  }
+.btn1 button{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #db1a8b;
+    border: 1px solid rgba(209, 14, 160, 0.667);
+    color: aliceblue;
+    cursor: pointer;
+}
+.btn1 button:hover{
+    background-color: rgba(209, 14, 160, 0.667);
+}
+
+.page2{
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+    height: auto;
+}
+   .page2 h2{
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    padding: 10px 45px;
+}
+.page2 h2 i{
+    color: rgb(222, 85, 11);
+    
+}
+.page2a {
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    padding: 10px 20px;
+}
+.page2a h2{
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    padding: 10px 45px;
+}
+#img1{
+    margin-left: 20px;
+    width: 645px;}
+#img2 img{
+    width: 605px;
+}
+.page2a .fa-solid {
+   display: none;
+}
+
+
+
+/* .img h5 {
+       color: bisque;
+    position: relative;
+    bottom: 23%;
+    left: 8%;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+} */
+/* .img p {
+    display: inline-block;
+    color: bisque;
+    position: relative;
+    bottom: 22%;
+    left: 8%;
+    cursor: pointer;
+ } */
+ .page2{
+    background-color: black;
+     width: 100%;
+     padding: 20px; 
+    /* height: 100vh; */
+}
+ .images{
+    display: flex;
+    width: 100%;
+}
+.images .box{
+width: 50%;
+padding: 10px;
+cursor: pointer;
+}
+.images .box:hover{
+    opacity: 0.8;
+}
+.images .img-1 img {
+    width: 100%;
+    border-radius: 10px;
+}
+.images .img-2 img {
+    width: 100%;
+    border-radius: 10px;
+}
+/* .img img:hover{
+    opacity: 0.8;
+} */
+/* .images{
+    display: flex;
+} */
+.images2{
+     display: flex; 
+    width: 100%;
+    
+} 
+.images2 .box:hover{
+    opacity: 0.8;
+}
+.images2 .box{
+width: 25%;
+padding: 10px;
+cursor: pointer;
+background: linear-gradient(to bottom,#000 100%, transparent, transparent);
+width: 100%;
+flex-direction: column;
+flex-wrap: wrap;
+}
+.img-1 h5{
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.img-1 p{
+    position: relative;
+    bottom: 65px;
+    left: 10px;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+}
+.img-2 h5{
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.img-2 p{
+    position: relative;
+    bottom: 65px;
+    left: 10px;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* .images2 .img3{
+width: 25%;
+} */
+.images2 .img2 img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+ .img2 p{
+    position: relative;
+    bottom: 28px;
+    left: 8px;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    
+}
+.images2 .img3 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.img3 p{
+    position: relative;
+    bottom: 28px;
+    left: 8px;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+}
+.images2 .img4 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.img4 p{
+    position: relative;
+    bottom: 28px;
+    left: 8px;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    display: block;
+}
+.images2 .img5 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.img5 p{
+    position: relative;
+    bottom: 28px;
+    left: 8px;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+}
+.btn3 i{
+    color: aliceblue;
+}  
+.page3{
+    background-color: black;
+     width: 100%;
+     padding: 20px; 
+    /* height: 100vh; */
+}
+.page3 .fa-solid {
+    display: none;
+ }
+.page3 h2{
+    color: azure;
+     padding: 20px;
+     padding-left: 44px;
+     font-family: 'Ubuntu', sans-serif;
+    font-size: px;
+}
+.page3a {
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    padding: 10px 10px;
+}
+.page3a .fa-solid {
+    display: none;
+}
+.page3a h2{
+    color: white;
+    padding: 20px;
+    padding-left: 44px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.images3{
+    display: flex;  
+    width: 100%;
+}
+.images3 .box{
+    width: 25%;
+    padding: 10px;
+    cursor: pointer;
+}
+.images3 .box:hover{
+    opacity: 0.8;
+}
+.images3 .img6 img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.images3 .img7 img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.images3 .img8 img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.images3 .img9 img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.images3 .img10 img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.images4{
+    display: flex;  
+    width: 100%;
+}
+.images4 .box{
+    width: 25%;
+    padding: 10px;
+    cursor: pointer;
+}
+.images4 .box:hover{
+    opacity: 0.8;
+}
+.images4 .img11 img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.images4 .img12 img{
+    width: 100%;
+    border-radius: 10px;    
+}
+.images4 .img13 img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.images4 .img14 img{
+    width: 100%;
+    border-radius: 10px;
+}.images4 .img15 img{
+    
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.page4{
+    background-color: black;
+     width: 100%; 
+    
+}
+.page4 .fa-solid {
+display: none;
+}
+.page4 h2{
+    color: azure;
+     padding: 20px;
+     padding-left: 44px;
+     font-family: 'Ubuntu', sans-serif;
+    font-size: px;
+}
+.images5{
+    display: flex;  
+    width: 100%;
+}
+.images5 .box{
+    width: 25%;
+    padding: 10px;
+    cursor: pointer;
+}
+.images5 .box:hover{
+    opacity: 0.8;
+}
+.images5 .img16 img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.images5 .img17 img{
+    width: 100%;
+    border-radius: 10px;    
+}
+.images5 .img18 img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.images5 .img19 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.images5 .img20 img{
+    
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.images5 .img21 img{
+    
+    width: 100%;
+    border-radius: 10px;   
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    line-height: 30px;
+    padding-top: 40px;
+   
+}
+.lpg{
+display: flex;
+justify-content: space-between;
+width: 45%;
+}
+.lpg2{
+    display: flex;
+    justify-content: space-between; 
+    width: 25%;  
+}
+
+.lastpage2 i{
+    font-size: 30px;
+    padding-top: 15px;
+   
+}
+.lastpage2 h3{
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+.lastpage3 img{
+    font-size: 30px;
+    padding-top: 15px;
+   
+}
+.lastpage3 h3{
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+.lastpage1 h3{
+       font-weight: bold;
+       font-size: 20px;
+       font-family: 'Ubuntu', sans-serif;
+}
+.lastpage1 p{
+
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.lastpage h3{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.lastpage p{
+
+ font-size: 15px;
+ font-family: 'Ubuntu', sans-serif;
+}
+.lastpage4{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0e0f10f5;
+    height: 20vh;
+}
+.lastpage4 h3{
+    padding-top: 51px;
+    padding-left: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+.lastpage4 img{
+    height: 60px;
+}
+.imgf{
+    margin-right: 2%;
+    margin-top: 4%;
+}
+
+/* responsive section */
+@media (max-width:1100px){
+    .logo img{
+        width: 150px;
+    
+}
+.navbar ul li{
+    padding-left: 17px;
+    left: 23%;
+}
+.img3 p{
+    font-size: 17px;
+}
+.img5 p{
+    font-size: 17px;
+}
+.lastpage4 .imgf{
+    height: 60px;
+    margin-top: 20px;
+}
+.lpg {
+    width: 55%;
+}
+
+}
+
+@media (max-width:1050px){
+    .btn{
+        position: relative;
+        left: 0px;
+    }
+    input{
+        position: relative;
+        left: 40px;
+    }
+    .fa-solid.fa-magnifying-glass {
+        position: relative;
+        left: 40px;
+    }
+    .fa-solid.fa-microphone{
+        position: relative;
+        left: 0px;
+        font-size: 20px;
+    }
+    nav{
+        padding-left: 25px;
+    }
+    .logo2 img{
+        position: relative;
+        left: 25px;
+    }
+    div h1{
+        font-size: 28px;
+    }
+    .btn button{
+        padding: 9px 17px;
+    }
+    .img2 p{
+        font-size: 16px;
+    }
+    .img3 p{
+        font-size: 16px;
+    }
+    .img4 p{
+        font-size: 16px;
+    }
+    .img5 p{
+        font-size: 16px;
+    }
+    .img-1 h5{
+        font-size: 17px;
+    }
+    .img-1 p{
+        font-size: 15px;
+    }
+    .img-2 h5{
+        font-size: 17px;
+    }
+    .img-2 p{
+        font-size: 15px;
+    }
+    .lastpage2 h3{
+        font-size: 24px;
+    }
+    .lastpage3 h3{
+        font-size: 24px;
+    }
+    footer{
+        padding-top: 15px;
+    }
+    .lastpage4 .imgf{
+        height: 60px;
+        margin-top: -9px;
+    }
+    .imgf{
+        padding-top: 3%;
+    }
+    .lastpage3 img{
+        width: 93px;
+    height: 64px;
+    }
+    .lastpage2 i{
+        font-size: 24px;
+    }
+}
+
+@media (max-width:1000px){
+    input{
+        display: none;
+    }
+    nav i{
+        padding-right: 60px;
+    }
+    .fa-solid.fa-magnifying-glass {
+        font-weight: 900;
+        display:block;
+    }
+    .fa-solid.fa-microphone{
+     display: none;
+        
+    }
+    
+    nav{
+        padding-left: 50px;
+    }
+    .page1{
+        background-position-x: -48px;
+    }
+    div h1{
+        font-size: 22px;
+    }
+    .images .box p{
+        font-size: 15px;
+    }
+}
+@media (max-width:950px){
+    .page1{
+        background-position-x: -75px;
+    }
+    .images2 .box img {
+        font-size: 14px;
+    }
+    .black{
+        display: block;
+        display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: aliceblue;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    height: 11vh;
+    padding-top:10px;
+    }
+  .black .bgs i {
+     padding-left: 16px;   
+    }
+    nav{
+        padding-left: 20px;
+    }
+    
+}
+@media (max-width:900px){
+    nav li{
+        display: none;
+    }
+     .logo2 img{
+        display: none;
+     }
+     .logo img{
+        position: relative;
+    right: 40px;
+     }
+     .btn{
+        position: relative;
+        left: -125px;
+     }
+     .fa-solid.fa-magnifying-glass {
+        position: relative;
+        left: 144px;
+        font-size: 25px;
+    }
+    .page1{
+        background-position-x: -100px;
+    }
+    div h1{
+        font-size: 20px;
+    }
+    .gradient{
+        background: linear-gradient(to right,#000 20%, transparent, transparent);
+        width: 100%;
+    }
+    .images2 .box p {
+        font-size: 13px;
+    }
+    .lpg {
+        width: 95%;
+        justify-content: space-between;
+        padding-top: 20px;
+        margin-left: 20px;
+
+        border-top: 1px solid rgb(145, 145, 145); 
+    } 
+    .lpg2{
+        margin-left: 20px;
+        width: 40%;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        
+    }
+    .blank{
+        width: 30px;
+    }
+    .lastpage4{
+        height: 30vh;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
+@media (max-width:850px){
+    .black{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    justify-content:space-evenly;
+    }
+    .lpg h3{
+        font-size: 25px;
+    }
+    .black p{
+        font-size: 10px; 
+    }
+    .blank{
+        width: 15px;
+    }
+    .page1{
+        background-position-x: -150px;
+    }
+    .lastpage3 img{
+        padding-top: 2px;
+        font-size: 30px;
+    }
+    .black .bgs i{
+        padding-left: 16px;
+        
+    }
+    .fa-solid.fa-magnifying-glass {
+        position: relative;
+        left: 128px;
+        font-size: 25px;
+    }
+    .black .bgs p{
+        padding-left: 10px;
+        font-size: 13px;
+    }
+    .black .bgs:hover{
+        color: #db1a8b;
+    }
+     .btn{
+        position: relative;
+        left: -110px;
+     }
+     .images2 .box p {
+        font-size: 12px;
+    }
+}
+@media (max-width:800px){
+   .page1{
+        background-position-x: -197px;
+    } 
+    .fa-solid.fa-magnifying-glass {
+        position: relative;
+        left: 100px;
+        font-size: 25px;
+    }
+    .logo img{
+        font-size: 20px;
+    }
+    .btn {
+        padding: 30px;
+    }
+    .btn button{
+        padding: 8px;
+    }
+    .fa-solid.fa-magnifying-glass {
+        font-size: 23px;
+}
+.images .box h5 {
+    font-size: 16px;
+}
+.images .box h5 {
+    font-size: 13px;
+}
+.lastpage4 .imgf img{
+    margin-top: 16px;
+}
+.page2 h2{
+    font-size: 19px;
+    padding-left: 15px;
+}
+.page2a h2{
+    font-size: 19px;
+    padding-left: 15px;
+}
+.page3 h2{
+    font-size: 19px;
+    padding-left: 15px;
+}
+.page3a h2{
+    font-size: 19px;
+    padding-left: 20px;
+}
+.page4 h2{
+    font-size: 19px;
+    padding-left: 30px;
+}
+.images2 .box p {
+    font-size: 11px;
+    padding-top: 5px;
+}
+.lpg h3{
+    font-size: 20px;
+}
+.lpg img {
+    font-size:18px ;
+}
+.blank{
+    width: 10px;
+}
+}
+@media (max-width:750px){
+     .page1{
+        background-position-x: -7px; 
+        height: 71vh;
+    } 
+    .logo img{
+        margin-left: 20px;
+    } 
+    .fa-solid.fa-magnifying-glass {
+        position: relative;
+        left: 80px;
+        font-size: 25px;
+    }
+    .images2 .box p {
+        font-size: 10.5px;
+    }
+    .btn1{
+        position: relative;
+        bottom: 18%;
+    }
+    div h1{
+        position: relative;
+        bottom: 11%;
+    }
+    .btn1 button{
+        padding:8px 8px;
+    }
+    nav {
+        height: 9vh;
+        padding-top: 5px;
+        position: fixed;
+        top: 0px;
+        background-color: rgba(0, 0, 0, 0.547);
+        backdrop-filter: blur(7px);
+    }
+    .btn button {
+        padding: 6px 6px;
+       background-color: rgba(0, 0, 0, 0.16); 
+    }
+    .fa-solid.fa-magnifying-glass {
+        font-size: 20px;
+}    
+}
+@media (max-width:700px){
+    .page1{
+        background-position-x: -10px; 
+        height: 70vh;
+    }
+    .fa-solid.fa-magnifying-glass {
+        position: relative;
+        left: 10px;
+    }
+    .btn button {
+        padding: 6px 6px;
+       background-color: rgba(0, 0, 0, 0); 
+     }
+     .btn{
+        font-size: 10px;
+        padding-left: 50px;
+     }
+     .logo img {
+        padding-left: 25px;
+     }
+     .lastpage1{
+        position: relative;
+        left: 100px;
+     }
+     div h1{
+        font-size: 21px;
+     }
+     .lastpage3 img {
+        font-size: 25px;
+        padding-top: 0px;
+     }
+     .images2 .box{
+        font-size: 9px;
+        padding-left: 2px;
+     }
+     .images2 .box p {
+      padding-top: 2px;
+     }
+    }
+    @media (max-width:650px){
+       #img5{
+            display: none;
+        }
+        #img10{
+            display: none;
+        }
+        #img15{
+            display: none;
+        }
+        #img21{
+            display: none;
+        }
+        .btn button {
+            font-size: 10px;
+        }
+        .page1{
+            background-position-x: -80px; 
+            height: 70vh;
+        }
+        /* .images2 .img5 p{
+            display: none;
+        } 
+        .images2 .box {
+            display: flex;
+            width: 100%;
+        }
+        .images2 .box img{
+            width: 175px;
+        }
+        .images2 .box p{
+    font-size: 13px;
+        }  */
+        .images .box p {
+           font-size: 11px;
+        }
+        .btn1{
+            position: relative;
+            bottom: 25%;
+        }
+        div h1{
+            position: relative;
+            bottom: 16%;
+        }
+        .btn1 button{
+            padding:6px 5px;
+            border-radius: 8px;
+        }
+        .fa-solid.fa-magnifying-glass {
+            position: relative;
+            left: 80px;
+        }
+    
+    }
+    @media (max-width:600px){
+        .images2 .box {
+            display: flex;
+            width: 100%;
+        }
+        .images2 .box img{
+            width: 156px;
+    
+        }
+        .images2 .box p {
+            font-size: 12px;
+        }
+        .page1{
+            background-position-x: -100px; 
+            height: 65vh;
+        } 
+        .btn{
+            padding-left: 80px;
+        }
+        .images3 .img10{
+            display: none;
+        }
+        .images3 .box {
+            display: flex;
+            width: 100%;
+        }
+        .images3 .box img {
+            width: 102px;
+            
+        }
+        div h1{
+            font-size: 17px;
+        }
+        .btn1 button {
+          font-size: 12px;
+        }
+        .btn1{
+        position: relative;
+        bottom: 32%;
+    }
+    div h1{
+        position: relative;
+        bottom: 20%;
+    }
+    .page2 h2{
+        font-size: 17px;
+    }
+    .page2a h2{
+        font-size: 17px;
+    }
+    .page3 h2{
+        font-size: 17px;
+    }
+    .page3a h2{
+        font-size: 17px;
+    }
+    .page4 h2{
+        font-size: 17px;
+    }
+    .lastpage h3{
+        font-size: 15px;
+    }
+    .lastpage p{
+        font-size: 12px;
+    }
+    .lastpage1 h3{
+        font-size: 15px;
+    }
+    .lastpage1 p{
+        font-size: 12px;
+    }
+    .lastpage2 h3{
+        font-size: 17px;
+    }
+    .lastpage2 i{
+        font-size: 23px;
+    }
+    .lastpage3 h3{
+        font-size: 17px;
+    }
+    .lastpage3 img {
+        font-size: 15px;
+    }
+    .lastpage4 h3{
+        font-size: 10px;
+    }
+    .lastpage4 img {
+     height: 45px;
+    }
+    .lastpage4 .imgf  {
+     margin-top: -2px;
+    }
+    .images5 .img21{
+        display: none;
+
+    }
+    .images5 .box {
+        display: flex;
+        width: 100%;
+    }
+    .images5 .box img{
+        width: 87px;
+    }
+    .images4 .img15{
+        display: none;
+    }
+    .images4 .box{
+        display: flex;
+        width: 100%;
+    }
+    .images4 .box img {
+        width: 109px;
+    }
+    .page3{
+        padding: 10px 16px;
+    }
+    .page3a{
+        padding: 10px 16px;
+    }
+    }
+    @media (max-width:550px){
+     .images2 .box img{
+            width: 144px;
+        }
+        .images3 .box img{
+            width: 96px;
+        }
+        .images4 .box img{
+            width: 96px;
+        }
+         .images5 .box img{
+            width: 72px;
+        }
+        .page4 {
+        padding: 5px 10px;
+        } 
+        .page1{
+            background-position-x: -75px; 
+            height: 59vh;
+        } 
+        .btn1{
+            position: relative;
+            bottom: 42%;
+        }
+        div h1{
+            position: relative;
+            bottom: 29%;
+        } 
+        .images .box h5 {
+            font-size: 12px;
+        } 
+        .images .box p {
+            font-size: 10px;
+        } 
+        .fa-solid.fa-magnifying-glass {
+            position: relative;
+            left: 56px;
+        }
+        .logo img {
+            font-size: 15px;
+        }
+
+    }
+    @media (max-width:500px){
+        .images5 .box {
+    width: 80%;
+    padding: 0px 13px;
+        }
+
+    .images2 .box img {
+        width: 120px;
+    }
+    #img20{
+        display: none;
+    }
+    .images3 .box img {
+        width: 82px;
+    } 
+    .images4 .box img {
+        width: 84px;
+    } 
+    .images5 .box img {
+        width: 82px;
+    } 
+    .images .box h5 {
+        position: relative;
+        bottom: 40px;
+        left: 10px;    
+    }
+    .images .box p {
+        position: relative;
+        bottom: 58px;
+        left: 10px;   
+    }
+    .lpg2 p{
+        font-size: 11px;
+    }
+    .lastpage4 .imgf img {
+        margin-top: 26px;
+    }
+    .page1 {
+        background-position-x: -119px;
+        height: 58vh;
+    }
+    .fa-solid.fa-magnifying-glass {
+        position: relative;
+        left: 35px;
+    }
+    .lastpage4 h3 {
+        font-size: 14px;
+    }
+    .lastpage4 img {
+        height: 60px;
+       }
+     .lpg2{
+        display: block;
+        line-height:40px;
+     }  
+     .lpg2 p{
+        display: none;
+     } 
+     .lpg2 h3{
+        font-size: 18px;
+     }
+     .lpg{
+        display: block;
+        line-height: 30px;
+     } 
+     .lpg h3{
+        font-size: 23px;
+     } 
+     .lastpage1{
+        position: relative;
+        left: 0px;
+     }
+     .page2 h2{
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    .page2a h2{
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    .page3 h2{
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    .page3a h2{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .page4 h2{
+        font-size: 20px;
+        padding-left: 30px;
+     }
+    .page2a .fa-solid{
+        width: 95%;
+        text-align: end;
+        position: relative;
+        bottom: 29px;
+        display: block;
+    }
+    .page3 .fa-solid{
+        width: 95%;
+        text-align: end;
+        position: relative;
+        bottom: 33px;
+        display: block;
+        color: aliceblue;
+    }
+    .page3a .fa-solid{
+        width: 95%;
+        text-align: end;
+        position: relative;
+        bottom: 33px;
+        display: block;
+        color: aliceblue;
+    }
+    .page4 .fa-solid{
+        width: 95%;
+        text-align: end;
+        position: relative;
+        bottom: 33px;
+        display: block;
+        color: aliceblue;
+    } 
+}
+ @media (max-width:450px){
+    .images2 .box img {
+    width: 107px;
+}
+.images3 .box img {
+    width: 68px;
+}
+.images4 .box img {
+    width: 67px;
+}
+ .images5 .box{
+        display: flex;
+        width: 100%;
+    } 
+ .images5 .img20{
+    display: none;
+    padding: 0;
+
+} 
+.images5 .box img {
+    width: 66px;
+}
+.fa-solid.fa-magnifying-glass {
+    position: relative;
+    left: 22px;
+ }
+ .page1 {
+    background-position-x: -115px;
+    height: 52vh;
+ }
+ .btn1 {
+    position: relative;
+    bottom: 51%;
+}
+div h1 {
+    position: relative;
+    bottom: 36%;
+}
+.black .bgs p {
+    padding-left: 10px;
+    font-size: 12px;
+}
+.black .bgs i {
+    width: 36px;
+}
+.logo img {
+    padding-left: 41px;
+}
+.btn button {
+    padding: 3px 8px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.btn{
+    padding-left: 88px;
+}
+.fa-solid.fa-magnifying-glass {
+    position: relative;
+    left: 16px;
+}
+.images2 .box p {
+    font-size: 11px;
+}
+}
+ @media (max-width:400px){
+.images2 .box img {
+    width: 90px;
+}
+.images3 .box img {
+    width: 58px;
+}
+.images4 .box img {
+    width: 57px;
+}
+.images5 .box img {
+    width: 52px;
+}
+.page1 {
+    background-position-x: -148px;
+    height: 51vh;
+}
+.logo{
+    padding-left: 80px;
+}
+.fa-solid.fa-magnifying-glass {
+    position: relative;
+    left: -65px;
+}
+.btn {
+    padding-left: 129px;
+}
+.lpg2 h3 {
+    font-size: 17px;
+}
+.lpg h3 {
+    font-size: 19px;
+}
+.lastpage3 img{
+    width: 90px;
+
+    }
+    .lastpage4 img {
+    height: 56px;
+    margin-right: 5px;
+}
+.lastpage4 h3 {
+    font-size: 10px;
+}
+nav {
+    width: 99%;
+}
+.black{
+    width: 99%;
+}
+}
